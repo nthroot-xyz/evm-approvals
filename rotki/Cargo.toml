@@ -1,0 +1,12 @@
+[package]
+name = "rotki"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "rotki"           # The name of the target.
+path = "src/lib.rs"    # The source file of the target.
+
+[dependencies]
+strum = { version = "0.26", features = ["derive"] }  # used for enums
+expanduser = "1.2.2"  # expand user dir
